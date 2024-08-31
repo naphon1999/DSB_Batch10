@@ -11,4 +11,4 @@ Naphon data science project
 reach out to me at emoney_euro@hotmail.com
 
 ## Image
-![One Piece](https://www.google.com/url?sa=i&url=https%3A%2F%2Fscreenrant.com%2Fone-piece-egghead-traitor-revealed-vegapunk-edison%2F&psig=AOvVaw2_BfYf9E0onAdTYfw0_8ki&ust=1725162293882000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMja3MKonogDFQAAAAAdAAAAABAE)
+![One Piece](https://static1.srcdn.com/wordpress/wp-content/uploads/2023/03/vegapunk-and-his-satellites-in-one-piece.jpg)
