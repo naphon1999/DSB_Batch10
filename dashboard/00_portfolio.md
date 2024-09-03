@@ -1,4 +1,4 @@
-## this is my dashboard portfolio
+## This is my dashboard portfolio
 
 ## Looker studio
 
