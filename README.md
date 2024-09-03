@@ -2,13 +2,13 @@
 Naphon data science project
 
 ## Introduction
-👋 Hi, I’m Naphon
-👀 I’m interested in SQL
-🌱 I’m currently practicing SLQ, R, and Python
-💞️ I’m looking to change my career path in BI or DA role
-📫 You can reach me on LinkedIn
-😄 Pronouns: He/Him
-⚡ Fun fact: Perfectionist but not always
+-👋 Hi, I’m Naphon
+-👀 I’m interested in SQL
+-🌱 I’m currently practicing SLQ, R, and Python
+-💞️ I’m looking to change my career path in BI or DA role
+-📫 You can reach me on LinkedIn
+-😄 Pronouns: He/Him
+-⚡ Fun fact: Perfectionist but not always
 
 ## My personal projects
 1. SQL
