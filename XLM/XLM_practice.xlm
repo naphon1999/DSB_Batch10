@@ -1,0 +1,18 @@
+<Menu>
+  <Breakfast>
+    <name>French Toast</name>
+    <price>$12</price>
+  </Breakfast>
+  <Breakfast>
+    <name>Sandwich</name>
+    <price>$7</price>
+  </Breakfast>
+  <Main Dish>
+    <name>Pizza</name>
+    <price>$13</price>
+  </Main Dish>
+  <Main Dish>
+    <name>Italian Pasta</name>
+    <price>$15</price>
+  </Main Dish>
+</Menu>
