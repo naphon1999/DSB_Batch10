@@ -1,0 +1,108 @@
+---
+title: "R_Markdown_Practice"
+author: "Naphon"
+date: "2024-09-04"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+# Download package
+
+```{r}
+library(tidyverse)
+```
+
+# Check data
+## Using diamonds dataset
+
+```{r}
+head(diamonds)
+tail(diamonds)
+glimpse(diamonds)
+```
+
+
+# Histogram (01)
+
+```{r}
+ggplot(diamonds, aes(carat)) +
+  geom_histogram(bins=15, col="white")+
+  theme_minimal()+
+  labs(title = "Caret distribution",
+       x = "Carat",
+       y = "Amount")
+```
+
+The histogram chart (01) above shows positive skewness.
+
+```{r}
+diamonds$carat %>%
+  mean()
+
+diamonds$carat %>%
+  median()
+```
+
+
+# Scatter plot (02)
+
+```{r}
+set.seed(42)
+ggplot(diamonds %>% sample_frac(0.01), aes(carat, price))+
+  geom_point(size = 1, col="#8B0000", alpha=0.5)+
+  geom_smooth(col="#008080",method = "lm", se=FALSE)+
+  geom_rug()+
+  theme_minimal()+
+  labs(title = "Correlation between Carat and Price",
+       caption = "Random sampling 1%",
+       x = "Carat",
+       y = "price")
+```
+
+The chart (02) above illustrates positive correlation between Carat and Price. In other words, the value of a diamond rises as its carat weight increases.
+
+# Scatter plots for each cut category (03)
+
+```{r}
+set.seed(42)
+ggplot(diamonds %>% sample_frac(0.01), aes(carat, price, col=cut))+
+  geom_point(size = 1, alpha=0.5)+
+  theme_minimal()+
+  facet_wrap(~cut, nrow = 1)
+  labs(title = "Correlation between Carat and Price",
+       caption = "Random sampling 1%",
+       x = "Carat",
+       y = "price")
+```
+```{r}
+diamonds %>%
+  count(cut) %>%
+  arrange(desc(n))
+```
+```{r}
+ggplot(diamonds, aes(cut, fill=cut)) +
+  geom_bar(alpha =0.5)+
+  theme_minimal()+
+  labs(title = "Amount of cut",
+       x = "Cut",
+       y = "Amount")
+```
+
+There are positive correlations between Carat and Price in each scatter plots (03) above, while both the table and bar chart displays the diamond cuts in an ordinal sequence from 'Ideal' to 'Fair,' providing a clear comparison of the quality rankings.
+
+# Jitter plot (04)
+
+```{r}
+set.seed(42)
+ggplot(diamonds %>% sample_frac(0.01), aes(cut, color, col=cut))+
+  geom_jitter(alpha=0.5)+
+  theme_minimal()+
+  labs(title = "Color distribution",
+       caption = "Random sampling 1%",
+       x = "Cut",
+       y = "Color")
+```
+
+The jitter plot (04) above reveals how diamond colors are distributed across various cut categories, highlighting any trends or variations in color quality within each cut type.
+
