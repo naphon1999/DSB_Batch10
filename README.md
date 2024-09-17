@@ -14,7 +14,8 @@ Naphon data science project
 1. SQL
 2. R Programming
 3. Looker Dashboard
-4. Linear regression TBC
+4. Machine Learning
+5. Python
 
 ## Contact
 reach out to me at emoney_euro@hotmail.com
