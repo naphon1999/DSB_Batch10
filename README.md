@@ -1,5 +1,5 @@
 # Data_Science_Bootcamp_10
-Naphon data science project
+Naphon's data science project
 
 ## Introduction
 - 👋 Hi, I’m Naphon
