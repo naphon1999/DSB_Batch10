@@ -13,9 +13,10 @@ Naphon's data science project
 ## My personal projects
 1. SQL
 2. R Programming
-3. Looker Dashboard
-4. Machine Learning
-5. Python
+3. Python
+4. Looker Dashboard
+5. Machine Learning
+
 
 ## Contact
 You can reach out to me at emoney_euro@hotmail.com
