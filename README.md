@@ -3,7 +3,7 @@ Naphon's data science project
 
 ## Introduction
 - 👋 Hi, I’m Naphon
-- 👀 I’m interested in SQL
+- 👀 I’m interested in Machine Learning
 - 🌱 I’m currently practicing SLQ, R, and Python
 - 💞️ I’m looking to change my career path to BI or DA role
 - 📫 You can reach me on LinkedIn
