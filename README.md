@@ -8,7 +8,7 @@ Naphon's data science project
 - 💞️ I’m looking to change my career path to BI or DA role
 - 📫 You can reach me on LinkedIn
 - 😄 Pronouns: He/Him
-- ⚡ Fun fact: Perfectionist but not always
+- ⚡ Fun fact: I'm a Book Worm
 
 ## My personal projects
 1. SQL
