@@ -18,7 +18,6 @@ Naphon's data science project
 5. Python
 
 ## Contact
-You cab reach out to me at emoney_euro@hotmail.com
+You can reach out to me at emoney_euro@hotmail.com
 
-## Image
 ![One Piece](https://static1.srcdn.com/wordpress/wp-content/uploads/2023/03/vegapunk-and-his-satellites-in-one-piece.jpg)
