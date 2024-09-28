@@ -5,7 +5,7 @@ Naphon's data science project
 - 👋 Hi, I’m Naphon
 - 👀 I’m interested in Machine Learning
 - 🌱 I’m currently practicing SLQ, R, and Python
-- 💞️ I’m looking to change my career path to BI or DA role
+- 💞️ I’m looking to change my career path to DA or DS role
 - 📫 You can reach me on LinkedIn
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: I'm a Bookworm
